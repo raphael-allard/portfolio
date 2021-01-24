@@ -1,0 +1,17 @@
+.container-header {
+  height: 100vh;
+  text-align: center;
+}
+
+header h1 {
+  padding-top: 50px;
+}
+
+header h2 {
+  font-weight: lighter;
+}
+
+header img {
+  width: 100%;
+  margin-top: 100px;
+}
