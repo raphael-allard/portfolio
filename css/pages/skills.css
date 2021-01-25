@@ -1,0 +1,46 @@
+#skills {
+  background: linear-gradient(307deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.700717787114846) 0%), url("../../images/village.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 50px;
+  padding: 30px 20px 40px 20px;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills-title h2 {
+  margin: 0px 30px 0px 30px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.languages-box {
+  text-align: center;
+}
+
+.languages-box > div {
+  margin-top: 30px;
+}
+
+.languages-box h3 {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.languages-end {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.languages-end div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
