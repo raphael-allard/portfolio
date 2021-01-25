@@ -14,3 +14,9 @@
   font-size: 28px;
   font-weight: lighter;
 }
+
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
