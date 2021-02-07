@@ -1,11 +1,12 @@
 .bubble {
-  width: 105px;
+  width: 95px;
   height: 30px;
   background-color: #f3f3f3;
   border-radius: 15px;
   color: #1E1E1E;
+  box-shadow: 1px 1px 5px black;
 }
 
 .bubble p {
-  font-size: 11px;
+  font-size: 13px;
 }
