@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: 'Rajdhani', sans-serif;
   color: #1E1E1E;
-  background-color: #f3f3f3;
+  background-color: #fdfdfd;
   width: 100vw;
 }
 
