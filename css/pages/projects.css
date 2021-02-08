@@ -20,3 +20,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
 }
+
+.projects-box a {
+  display: block;
+  margin-top: 30px;
+}
