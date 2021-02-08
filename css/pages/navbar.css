@@ -1,7 +1,9 @@
 nav {
-  height: 60px;
   width: 100%;
   padding: 10px 20px 0px 20px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 
 .navbar-box {
@@ -17,4 +19,34 @@ nav img{
 
 .navbar-menu i {
   font-size: 30px;
+}
+
+.burger-rotate-left {
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease-out;
+}
+
+.burger-rotate-right {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-list-box {
+  display: none;
+}
+
+.navbar-list-box.active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.navbar-list-box h3 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.navbar-list-box h3:hover {
+  text-decoration: underline;
 }
