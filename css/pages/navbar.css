@@ -1,9 +1,14 @@
 nav {
   width: 100%;
-  padding: 10px 20px 0px 20px;
+  padding: 5px 20px;
   position: sticky;
   z-index: 1;
   top: 0;
+}
+
+nav.active {
+  background-color: #1E1E1E;
+  color: white;
 }
 
 .navbar-box {
@@ -15,6 +20,11 @@ nav {
 nav img{
   height: 50px;
   width: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-menu i {
@@ -39,7 +49,12 @@ nav img{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20px;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.navbar-list-box a.active {
+  color: white!important;
 }
 
 .navbar-list-box h3 {
