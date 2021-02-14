@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap");
+.bubble {
+  width: 95px;
+  height: 30px;
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  color: #1E1E1E;
+  box-shadow: 1px 1px 5px black;
+}
+.bubble p {
+  font-size: 13px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+}
+
+.card-content {
+  padding: 10px 10px 0px 10px;
+  overflow: overlay;
+}
+.card-content p {
+  margin-top: 10px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Rajdhani", sans-serif;
+  color: #1E1E1E;
+  background-color: #fdfdfd;
+  width: 100vw;
+}
+
+a {
+  text-decoration: none !important;
+  color: #1E1E1E !important;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+.content-container {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.about-title h2 {
+  margin: 0px 30px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  text-align: center;
+}
+.about-content p {
+  font-size: 14px;
+}
+
+.about-content p:not(:first-child) {
+  margin-top: 20px;
+}
+
+#contact {
+  margin-top: 50px;
+  margin-bottom: 35px;
+}
+#contact img {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.contact-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-title h2 {
+  margin: 0px 30px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.contact-content {
+  margin-top: 30px;
+  text-align: center;
+}
+.contact-content h3 {
+  font-size: 23px;
+  font-weight: lighter;
+}
+.contact-content p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.contact-link-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 30px;
+}
+.contact-link-box i {
+  font-size: 50px;
+}
+
+footer {
+  background-color: #1E1E1E;
+  color: white;
+  font-size: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 50px;
+  position: relative;
+}
+footer a {
+  position: absolute;
+  bottom: 55px;
+  left: 10px;
+}
+footer a i {
+  font-size: 20px;
+  color: #1E1E1E;
+}
+
+header {
+  text-align: center;
+  padding-top: 50px;
+}
+header h1 {
+  font-size: 32px;
+}
+header h2 {
+  font-weight: lighter;
+  font-size: 28px;
+}
+header img {
+  width: 100%;
+  margin-top: 60px;
+}
+
+nav {
+  width: 100%;
+  padding: 5px 20px;
+  position: sticky;
+  z-index: 1;
+  top: 0;
+}
+
+nav.active {
+  background-color: #1E1E1E;
+  color: white;
+}
+
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar-menu {
+  display: flex;
+  align-items: center;
+}
+.navbar-menu i {
+  font-size: 30px;
+}
+
+.burger-rotate-left {
+  transform: rotate(-90deg);
+  transition: transform 0.3s ease-out;
+}
+
+.burger-rotate-right {
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-out;
+}
+
+.navbar-list-box {
+  display: none;
+}
+
+.navbar-list-box.active {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 7px;
+}
+
+.navbar-list-box a.active {
+  color: white !important;
+}
+
+.navbar-list-box h3 {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.navbar-list-box h3:hover {
+  text-decoration: underline;
+}
+
+#projects {
+  margin-top: 50px;
+  padding: 0px 20px;
+}
+
+.projects-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-title h2 {
+  margin: 0px 30px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.projects-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.projects-box a {
+  display: block;
+  margin-top: 30px;
+}
+
+#skills {
+  background: linear-gradient(307deg, rgba(0, 0, 0, 0.5046393557) 0%, rgba(0, 0, 0, 0.7007177871) 0%), url("../../images/village.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  margin-top: 50px;
+  padding: 30px 20px 40px 20px;
+}
+
+.skills-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills-title h2 {
+  margin: 0px 30px;
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+.languages-box {
+  text-align: center;
+}
+.languages-box h3 {
+  font-size: 23px;
+  font-weight: lighter;
+}
+
+.languages-box > div {
+  margin-top: 30px;
+}
+
+.languages-end {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.languages-end div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
