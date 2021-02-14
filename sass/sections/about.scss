@@ -1,0 +1,25 @@
+.about-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  h2 {
+    margin: 0px 30px;
+    font-size: 28px;
+    font-weight: lighter;
+  }
+}
+
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  text-align: center;
+  p {
+    font-size: 14px;
+  }
+}
+
+.about-content p:not(:first-child) {
+  margin-top: 20px;
+}
