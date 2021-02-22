@@ -19,7 +19,7 @@
 }
 
 .languages-box {
-  text-align: center;
+  display: flex;
   h3 {
     font-size: 23px;
     font-weight: lighter;
@@ -28,6 +28,7 @@
 
 .languages-box > div {
   margin-top: 30px;
+  text-align: center;
 }
 
 .languages-end {
