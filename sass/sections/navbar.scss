@@ -4,11 +4,13 @@ nav {
   position: sticky;
   z-index: 1;
   top: 0;
+  transition: background-color 0.2s ease;
 }
 
 nav.active {
   background-color: #1E1E1E;
   color: white;
+  transition: background-color 0.1s ease;
 }
 
 .navbar-box {
