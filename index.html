@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Full Stack Web Developer | Allard Raphaël</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
     <link rel="icon" type="image/png" href="images/allard-prod-white.png">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> -->
     <link rel="stylesheet" href="./style.css">
   </head>
   
@@ -49,7 +50,7 @@
     <header>
       <h1>Full Stack Web Developer</h1>
       <h2>Allard Raphaël</h2>
-      <img src="images/mountains.png" alt="mountains">
+      <img src="images/mountains.svg" alt="mountains">
     </header>
     
     <div id="about" class="content-container">
@@ -141,25 +142,72 @@
       </div>
       
       <div class="projects-box">
-        <a href="https://bit.ly/3suvFfg" target="_blank">
-          <div class="card">
-            <h4>PONG</h4>
-            <div class="card-hover-div">
-              <p>PONG is a progressive web-app allow you to create spontaneous events with your friends. Coded at “le Wagon” with the “Ruby on Rails” framework, we still working on with buddies. Action Cable, Web Socket, Geocoder, Sweet Alert & Flatpickr are the main features.</p>
-              <i class="fas fa-plus-circle"></i>
-            </div>
+        <div class="card" style="background: linear-gradient(307deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.700717787114846) 0%), url('./images/pong1.png')">
+          <h4>PONG</h4>
+
+          <div class="card-hover-div">
+            <p>PONG is a PWA allows you to create spontaneous events with your friends. Coded at le Wagon with the Ruby on Rails framework, we still working on with buddies. Action Cable, Geocoder, PG Search, Sweet Alert & Flatpickr are the main features.</p>
+            <i class="fas fa-plus-circle"></i>
           </div>
-        </a>
-        
-        <a href="https://airbnb-fannyibz.herokuapp.com/" target="_blank">
-          <div class="card">
-            <h4>Air Sup'O</h4>
-            <div class="card-hover-div">
-              <p>Air Sup’O is a AirBnB website like where people may hire superheroes’ services. I developed it at “le Wagon” with the “Ruby on Rails” framework. We used tools & technologies as Bootstrap, Geocoder, Cloudinary & PG-Search.</p>
-              <i class="fas fa-plus-circle"></i>
+
+          <div id="pong-carousel" class="carousel slide d-none" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#pong-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#pong-carousel" data-slide-to="1"></li>
+              <li data-target="#pong-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/pong1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/pong2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/pong3.png" alt="Third slide">
+              </div>
             </div>
+            <a class="carousel-control-prev" href="#pong-carousel" role="button" data-slide="prev">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#pong-carousel" role="button" data-slide="next">
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
-        </a>
+        </div>
+      
+        <div class="card" style="background: linear-gradient(307deg, rgba(0,0,0,0.5046393557422969) 0%, rgba(0,0,0,0.700717787114846) 0%), url('./images/pong2.png')">
+          <h4>Air Sup'O</h4>
+          <div class="card-hover-div">
+            <p>Air Sup’O is a AirBnB website like where people may hire superheroes’ services. I developed it at “le Wagon” with the “Ruby on Rails” framework. We used tools & technologies as Bootstrap, Geocoder, Cloudinary & PG-Search.</p>
+            <i class="fas fa-plus-circle"></i>
+          </div>
+
+          <div id="air-supo-carousel" class="carousel slide d-none" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#air-supo-carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#air-supo-carousel" data-slide-to="1"></li>
+              <li data-target="#air-supo-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./images/pong1.png" alt="First slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/pong2.png" alt="Second slide">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./images/pong3.png" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#air-supo-carousel" role="button" data-slide="prev">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#air-supo-carousel" role="button" data-slide="next">
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     
@@ -201,8 +249,12 @@
       <p>© 2021 Allard Raphaël, All rights reserved</p>
       <p>This website is made with ❄ & 🏔</p>
     </footer>
+
+    <script src="./javascript/main.js" type="module"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
-  <script src="./javascript/main.js" type="module"></script>
 </html>
 
 <!-- http-server -a localhost -p 8000 -->
