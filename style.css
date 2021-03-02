@@ -49,16 +49,34 @@
 }
 .card:hover .card-hover-div i {
   font-size: 35px;
-  margin-top: 15px;
+  width: 36px;
+  margin: 0 auto;
+  margin-top: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+.card:hover .card-hover-div i:hover {
+  transform: scale(1.2);
 }
 
 .carousel i {
   color: black;
   font-size: 30px;
 }
+.carousel .fa-chevron-right {
+  margin-left: 30px;
+}
+.carousel .fa-chevron-left {
+  margin-right: 30px;
+}
+.carousel .carousel-indicators {
+  margin-bottom: -2%;
+}
+.carousel .carousel-indicators li {
+  background-color: black;
+}
 
-.w-100 {
-  width: 90% !important;
+#pong-carousel .w-100 {
+  width: 85% !important;
   margin: 0 auto;
 }
 
@@ -96,7 +114,7 @@ h1, h2, h3, h4, p {
 }
 .about-title h2 {
   margin: 0px 30px;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: lighter;
 }
 
@@ -130,7 +148,7 @@ h1, h2, h3, h4, p {
 }
 .contact-title h2 {
   margin: 0px 30px;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: lighter;
 }
 
@@ -186,7 +204,7 @@ header h1 {
 }
 header h2 {
   font-weight: lighter;
-  font-size: 28px;
+  font-size: 30px;
 }
 header img {
   width: 100%;
@@ -274,7 +292,7 @@ nav img {
 }
 .projects-title h2 {
   margin: 0px 30px;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: lighter;
 }
 
@@ -284,7 +302,7 @@ nav img {
   justify-content: space-evenly;
 }
 .projects-box .card {
-  margin-top: 45px;
+  margin-top: 50px;
 }
 
 #skills {
@@ -304,7 +322,7 @@ nav img {
 }
 .skills-title h2 {
   margin: 0px 30px;
-  font-size: 28px;
+  font-size: 30px;
   font-weight: lighter;
 }
 

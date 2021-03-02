@@ -1,15 +1,25 @@
-.carousel i {
-  color: black;
-  font-size: 30px;
+.carousel {
+  i {
+    color: black;
+    font-size: 30px;
+  }
+  .fa-chevron-right {
+    margin-left: 30px;
+  }
+  .fa-chevron-left {
+    margin-right: 30px;
+  }
+  .carousel-indicators {
+    margin-bottom: -2%;
+    li {
+      background-color: black;
+    }
+  }
 }
 
-.w-100 {
-  width: 90%!important;
-  margin: 0 auto;
+#pong-carousel {
+  .w-100 {
+    width: 85%!important;
+    margin: 0 auto;
+  }
 }
-// .carousel-control-prev-icon {
-//   color: red;
-// }
-// .carousel-control-next-icon {
-//   color: red;
-// }
