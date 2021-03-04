@@ -5,7 +5,10 @@
   background-attachment: fixed;
   color: white;
   margin-top: 50px;
-  padding: 30px 20px 45px 20px;
+  padding: 30px 20px 50px 20px;
+  @include sm {
+    padding: 50px 20px 55px 20px;
+  }
 }
 
 .skills-title {
@@ -16,27 +19,38 @@
     margin: 0px 30px;
     font-size: 30px;
     font-weight: lighter;
+    @include sm {
+      font-size: 34px;
+    }
+  }
+  i {
+    @include sm {
+      font-size: 20px;
+    }
   }
 }
 
 .languages-box {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+  @include sm {
+    margin-top: 35px;
+  }
   h3 {
     font-size: 23px;
     font-weight: lighter;
+    @include sm {
+      font-size: 27px;
+    }
   }
-}
-
-.languages-box > div {
-  margin-top: 30px;
-  text-align: center;
 }
 
 .languages-end {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
+  align-items: center;
   div {
     display: flex;
     align-items: center;

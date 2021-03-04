@@ -7,17 +7,34 @@ footer {
   align-items: center;
   height: 50px;
   position: relative;
+  @include sm {
+    height: 60px;
+  }
   a {
     position: absolute;
     bottom: 55px;
     left: 10px;
     transition: transform 0.3s ease-in-out;
+    @include sm {
+      bottom: 70px;
+      left: 15px;
+    }
     &:hover {
       transform: scale(1.4) rotate(360deg);
     }
     i {
       font-size: 20px;
       color: #1E1E1E;
+      @include sm {
+        font-size: 23px;
+        color: white;
+      }
+    }
+  }
+  p {
+    font-size: 11px;
+    @include sm {
+      font-size: 13px;
     }
   }
 }

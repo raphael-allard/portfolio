@@ -5,7 +5,14 @@
   border-radius: 15px;
   color: #1E1E1E;
   box-shadow: 1px 1px 5px black;
+  @include sm {
+    width: 120px;
+    height: 32px;
+  }
   p {
    font-size: 13px;
+   @include sm {
+    font-size: 15px;
+   }
  }
 }

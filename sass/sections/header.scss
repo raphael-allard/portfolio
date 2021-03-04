@@ -3,10 +3,16 @@ header {
   padding-top: 50px;
   h1 {
     font-size: 32px;
+    @include sm {
+      font-size: 36px;
+    }
   }
   h2 {
     font-weight: lighter;
     font-size: 30px;
+    @include sm {
+      font-size: 34px;
+    }
   }
   img {
     width: 100%;

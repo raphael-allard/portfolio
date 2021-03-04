@@ -1,6 +1,10 @@
 #projects {
   margin-top: 50px;
   padding: 0px 20px;
+  @include sm {
+    margin-top: 60px;
+    padding: 0;
+  }
 }
 
 .projects-title {
@@ -11,13 +15,23 @@
     margin: 0px 30px;
     font-size: 30px;
     font-weight: lighter;
+    @include sm {
+      font-size: 34px;
+    }
+  }
+  i {
+    @include sm {
+      font-size: 20px;
+    }
   }
 }
 
 .projects-box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
+  @include sm {
+    flex-direction: row;
+  }
   .card {
     margin-top: 50px;
   }

@@ -7,8 +7,19 @@
   color: #1E1E1E;
   box-shadow: 1px 1px 5px black;
 }
+@media (min-width: 576px) {
+  .bubble {
+    width: 120px;
+    height: 32px;
+  }
+}
 .bubble p {
   font-size: 13px;
+}
+@media (min-width: 576px) {
+  .bubble p {
+    font-size: 15px;
+  }
 }
 
 .card {
@@ -17,6 +28,7 @@
   align-items: center;
   width: 250px;
   height: 350px;
+  margin: 0 auto;
   background-size: 60% !important;
   background-position: center !important;
   color: white;
@@ -118,6 +130,16 @@ h1, h2, h3, h4, p {
   font-size: 30px;
   font-weight: lighter;
 }
+@media (min-width: 576px) {
+  .about-title h2 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 576px) {
+  .about-title i {
+    font-size: 20px;
+  }
+}
 
 .about-content {
   display: flex;
@@ -126,7 +148,12 @@ h1, h2, h3, h4, p {
   text-align: center;
 }
 .about-content p {
-  font-size: 14px;
+  font-size: 15px;
+}
+@media (min-width: 576px) {
+  .about-content p {
+    font-size: 16px;
+  }
 }
 
 .about-content p:not(:first-child) {
@@ -137,9 +164,19 @@ h1, h2, h3, h4, p {
   margin-top: 80px;
   margin-bottom: 35px;
 }
+@media (min-width: 576px) {
+  #contact {
+    margin-bottom: 0;
+  }
+}
 #contact img {
   width: 100%;
   margin-top: 30px;
+}
+@media (min-width: 576px) {
+  #contact img {
+    width: 50%;
+  }
 }
 
 .contact-title {
@@ -152,18 +189,46 @@ h1, h2, h3, h4, p {
   font-size: 30px;
   font-weight: lighter;
 }
+@media (min-width: 576px) {
+  .contact-title h2 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 576px) {
+  .contact-title i {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  .contact-picture-content {
+    display: flex;
+  }
+}
 
 .contact-content {
   margin-top: 30px;
   text-align: center;
+}
+@media (min-width: 576px) {
+  .contact-content {
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
 }
 .contact-content h3 {
   font-size: 23px;
   font-weight: lighter;
 }
 .contact-content p {
-  font-size: 14px;
+  font-size: 15px;
   margin-top: 10px;
+}
+@media (min-width: 576px) {
+  .contact-content p {
+    margin-top: 15px;
+  }
 }
 
 .contact-link-box {
@@ -172,9 +237,20 @@ h1, h2, h3, h4, p {
   align-items: center;
   margin-top: 30px;
 }
+@media (min-width: 576px) {
+  .contact-link-box {
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+}
 .contact-link-box i {
   font-size: 50px;
   transition: transform 0.2s ease-in-out;
+}
+@media (min-width: 576px) {
+  .contact-link-box i {
+    font-size: 45px;
+  }
 }
 .contact-link-box i:hover {
   transform: scale(1.2);
@@ -193,11 +269,22 @@ footer {
   height: 50px;
   position: relative;
 }
+@media (min-width: 576px) {
+  footer {
+    height: 60px;
+  }
+}
 footer a {
   position: absolute;
   bottom: 55px;
   left: 10px;
   transition: transform 0.3s ease-in-out;
+}
+@media (min-width: 576px) {
+  footer a {
+    bottom: 70px;
+    left: 15px;
+  }
 }
 footer a:hover {
   transform: scale(1.4) rotate(360deg);
@@ -205,6 +292,20 @@ footer a:hover {
 footer a i {
   font-size: 20px;
   color: #1E1E1E;
+}
+@media (min-width: 576px) {
+  footer a i {
+    font-size: 23px;
+    color: white;
+  }
+}
+footer p {
+  font-size: 11px;
+}
+@media (min-width: 576px) {
+  footer p {
+    font-size: 13px;
+  }
 }
 
 header {
@@ -214,9 +315,19 @@ header {
 header h1 {
   font-size: 32px;
 }
+@media (min-width: 576px) {
+  header h1 {
+    font-size: 36px;
+  }
+}
 header h2 {
   font-weight: lighter;
   font-size: 30px;
+}
+@media (min-width: 576px) {
+  header h2 {
+    font-size: 34px;
+  }
 }
 header img {
   width: 100%;
@@ -231,6 +342,16 @@ nav {
   top: 0;
   transition: background-color 0.2s ease;
 }
+nav img {
+  height: 50px;
+  width: 50px;
+}
+@media (min-width: 576px) {
+  nav img {
+    height: 60px;
+    width: 60px;
+  }
+}
 
 nav.active {
   background-color: #1E1E1E;
@@ -244,17 +365,18 @@ nav.active {
   align-items: center;
 }
 
-nav img {
-  height: 50px;
-  width: 50px;
-}
-
 .navbar-menu {
   display: flex;
   align-items: center;
 }
 .navbar-menu i {
   font-size: 30px;
+  cursor: pointer;
+}
+@media (min-width: 576px) {
+  .navbar-menu i {
+    font-size: 35px;
+  }
 }
 
 .burger-rotate-left {
@@ -287,6 +409,11 @@ nav img {
   font-size: 14px;
   font-weight: lighter;
 }
+@media (min-width: 576px) {
+  .navbar-list-box h3 {
+    font-size: 17px;
+  }
+}
 
 .navbar-list-box h3:hover {
   text-decoration: underline;
@@ -295,6 +422,12 @@ nav img {
 #projects {
   margin-top: 50px;
   padding: 0px 20px;
+}
+@media (min-width: 576px) {
+  #projects {
+    margin-top: 60px;
+    padding: 0;
+  }
 }
 
 .projects-title {
@@ -307,11 +440,25 @@ nav img {
   font-size: 30px;
   font-weight: lighter;
 }
+@media (min-width: 576px) {
+  .projects-title h2 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 576px) {
+  .projects-title i {
+    font-size: 20px;
+  }
+}
 
 .projects-box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
+}
+@media (min-width: 576px) {
+  .projects-box {
+    flex-direction: row;
+  }
 }
 .projects-box .card {
   margin-top: 50px;
@@ -324,7 +471,12 @@ nav img {
   background-attachment: fixed;
   color: white;
   margin-top: 50px;
-  padding: 30px 20px 45px 20px;
+  padding: 30px 20px 50px 20px;
+}
+@media (min-width: 576px) {
+  #skills {
+    padding: 50px 20px 55px 20px;
+  }
 }
 
 .skills-title {
@@ -337,25 +489,42 @@ nav img {
   font-size: 30px;
   font-weight: lighter;
 }
+@media (min-width: 576px) {
+  .skills-title h2 {
+    font-size: 34px;
+  }
+}
+@media (min-width: 576px) {
+  .skills-title i {
+    font-size: 20px;
+  }
+}
 
 .languages-box {
   display: flex;
   justify-content: space-around;
+  margin-top: 30px;
+  text-align: center;
+}
+@media (min-width: 576px) {
+  .languages-box {
+    margin-top: 35px;
+  }
 }
 .languages-box h3 {
   font-size: 23px;
   font-weight: lighter;
 }
-
-.languages-box > div {
-  margin-top: 30px;
-  text-align: center;
+@media (min-width: 576px) {
+  .languages-box h3 {
+    font-size: 27px;
+  }
 }
 
 .languages-end {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: column;
+  align-items: center;
 }
 .languages-end div {
   display: flex;

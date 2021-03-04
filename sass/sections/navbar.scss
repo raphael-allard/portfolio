@@ -5,6 +5,14 @@ nav {
   z-index: 1;
   top: 0;
   transition: background-color 0.2s ease;
+  img {
+    height: 50px;
+    width: 50px;
+    @include sm {
+      height: 60px;
+      width: 60px;
+    }
+  }
 }
 
 nav.active {
@@ -19,16 +27,15 @@ nav.active {
   align-items: center;
 }
 
-nav img{
-  height: 50px;
-  width: 50px;
-}
-
 .navbar-menu {
   display: flex;
   align-items: center;
   i {
     font-size: 30px;
+    cursor: pointer;
+    @include sm {
+      font-size: 35px;
+    }
   }
 }
 
@@ -61,6 +68,9 @@ nav img{
 .navbar-list-box h3 {
   font-size: 14px;
   font-weight: lighter;
+  @include sm {
+    font-size: 17px;
+  }
 }
 
 .navbar-list-box h3:hover {
