@@ -11,8 +11,11 @@ body {
 }
 
 a {
-  text-decoration: none!important;
-  color: #1E1E1E!important;
+  text-decoration: none;
+  color: #1E1E1E;
+  &:hover {
+    color: #1E1E1E;
+  }
 }
 
 h1, h2, h3, h4, p {
