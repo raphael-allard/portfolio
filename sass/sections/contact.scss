@@ -10,6 +10,9 @@
     @include sm {
       width: 50%;
     }
+    @include md {
+      width: 40%;
+    }
   }
 }
 
@@ -49,12 +52,20 @@
   h3 {
     font-size: 23px;
     font-weight: lighter;
+    @include md {
+      font-size: 26px;
+    }
   }
   p {
     font-size: 15px;
     margin-top: 10px;
     @include sm {
       margin-top: 15px;
+    }
+    @include md {
+      margin: 20px 30px;
+      font-size: 16px;
+      // max-width: 400px;
     }
   }
 }
@@ -68,11 +79,18 @@
     justify-content: space-around;
     margin-bottom: 20px;
   }
+  @include md {
+    margin-top: 35px;
+    margin-bottom: 25px;
+  }
   i {
     font-size: 50px;
     transition: transform 0.2s ease-in-out;
     @include sm {
       font-size: 45px;
+    }
+    @include md {
+      font-size: 55px;
     }
     &:hover {
       transform: scale(1.2);

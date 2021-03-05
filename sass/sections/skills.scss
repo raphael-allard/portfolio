@@ -9,6 +9,9 @@
   @include sm {
     padding: 50px 20px 55px 20px;
   }
+  @include md {
+    padding: 50px 20px 65px 20px;
+  }
 }
 
 .skills-title {

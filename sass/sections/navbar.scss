@@ -37,6 +37,9 @@ nav.active {
       font-size: 35px;
     }
   }
+  @include md {
+    display: none;
+  }
 }
 
 .burger-rotate-left {
@@ -49,6 +52,24 @@ nav.active {
   transition: transform 0.3s ease-out;
 }
 
+.navbar-list-box-md-screen {
+  display: none;
+  @include md {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-basis: 100%;
+    margin-left: 30px;
+    a:hover {
+      text-decoration: underline;
+    }
+    h3 {
+      font-size: 18px;
+      font-weight: normal;
+    }
+  }
+}
+
 .navbar-list-box {
   display: none;
 }
@@ -59,6 +80,12 @@ nav.active {
   align-items: center;
   margin-top: 15px;
   margin-bottom: 7px;
+  @include sm {
+    margin-top: 18px;
+  }
+  @include md {
+    display: none;
+  }
 }
 
 .navbar-list-box a.active {
@@ -67,7 +94,7 @@ nav.active {
 
 .navbar-list-box h3 {
   font-size: 14px;
-  font-weight: lighter;
+  font-weight: normal;
   @include sm {
     font-size: 17px;
   }
