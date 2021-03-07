@@ -5,7 +5,7 @@ header {
     padding-top: 105px;
   }
   @include xl {
-    padding-top: 90px;
+    padding-top: 75px;
   }
   h1 {
     font-size: 32px;
@@ -31,6 +31,43 @@ header {
     margin-top: 60px;
     @include lg {
       margin-top: 85px;
+    }
+  }
+}
+
+#cable {
+  position: absolute;
+  border-top: 1px solid black;
+  bottom: 67%;
+  transform: rotate(-8deg);
+  width: 99%;
+  @include sm {
+    bottom: 64%;
+  }
+  @include lg {
+    bottom: 54%;
+  }
+  @include xl {
+    border-top: 2px solid black;
+  }
+  i {
+    position: absolute;
+    transform: rotate(16deg);
+    top: -2px;
+    left: 0px;
+    transition: left 10s ease-out;
+    font-size: 25px;
+    @include sm {
+      font-size: 30px;
+    }
+    @include md {
+      font-size: 40px;
+    }
+    @include lg {
+      font-size: 50px;
+    }
+    @include xl {
+      font-size: 60px;
     }
   }
 }

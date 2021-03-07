@@ -615,7 +615,7 @@ header {
 }
 @media (min-width: 1200px) {
   header {
-    padding-top: 90px;
+    padding-top: 75px;
   }
 }
 header h1 {
@@ -652,6 +652,57 @@ header img {
 @media (min-width: 992px) {
   header img {
     margin-top: 85px;
+  }
+}
+
+#cable {
+  position: absolute;
+  border-top: 1px solid black;
+  bottom: 67%;
+  transform: rotate(-8deg);
+  width: 99%;
+}
+@media (min-width: 576px) {
+  #cable {
+    bottom: 64%;
+  }
+}
+@media (min-width: 992px) {
+  #cable {
+    bottom: 54%;
+  }
+}
+@media (min-width: 1200px) {
+  #cable {
+    border-top: 2px solid black;
+  }
+}
+#cable i {
+  position: absolute;
+  transform: rotate(16deg);
+  top: -2px;
+  left: 0px;
+  transition: left 10s ease-out;
+  font-size: 25px;
+}
+@media (min-width: 576px) {
+  #cable i {
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  #cable i {
+    font-size: 40px;
+  }
+}
+@media (min-width: 992px) {
+  #cable i {
+    font-size: 50px;
+  }
+}
+@media (min-width: 1200px) {
+  #cable i {
+    font-size: 60px;
   }
 }
 
@@ -772,6 +823,20 @@ nav.active {
 }
 
 .navbar-list-box h3:hover {
+  text-decoration: underline;
+}
+
+#first-wind-button {
+  cursor: pointer;
+}
+#first-wind-button:hover {
+  text-decoration: underline;
+}
+
+#second-wind-button {
+  cursor: pointer;
+}
+#second-wind-button:hover {
   text-decoration: underline;
 }
 
