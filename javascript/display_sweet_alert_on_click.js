@@ -8,7 +8,7 @@ const displaySweetAlertOnClick = () => {
       icon: 'success',
       title: 'Email copied!',
       showConfirmButton: false,
-      timer: 2000
+      timer: 1750
     })
   });
 };

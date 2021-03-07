@@ -5,6 +5,9 @@
     margin-top: 60px;
     padding: 0;
   }
+  @include lg {
+    margin-top: 85px;
+  }
 }
 
 .projects-title {
@@ -18,10 +21,16 @@
     @include sm {
       font-size: 34px;
     }
+    @include lg {
+      font-size: 36px;
+    }
   }
   i {
     @include sm {
       font-size: 20px;
+    }
+    @include lg {
+      font-size: 24px;
     }
   }
 }

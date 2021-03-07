@@ -4,6 +4,9 @@
   @include sm {
     margin-bottom: 0;
   }
+  @include lg {
+    margin-top: 85px;
+  }
 }
 
 .snowboarder-background {
@@ -20,6 +23,9 @@
     width: 50%;
     height: auto;
   }
+  @include lg {
+    margin: 0;
+  }
 }
 
 .contact-title {
@@ -33,10 +39,16 @@
     @include sm {
       font-size: 34px;
     }
+    @include lg {
+      font-size: 36px;
+    }
   }
   i {
     @include sm {
       font-size: 20px;
+    }
+    @include lg {
+      font-size: 24px;
     }
   }
 }
@@ -45,18 +57,25 @@
   @include md {
     display: flex;
   }
+  @include lg {
+    height: 500px;
+    margin-top: 40px;
+  }
 }
 
 .contact-content {
   margin-top: 30px;
   text-align: center;
   @include sm {
-    margin-top: 35px;
+    margin-top: 30px;
     margin-left: 35px;
     margin-right: 35px;
   }
   @include md {
     width: 50%;
+  }
+  @include lg {
+    margin-top: 0px;
   }
   h3 {
     font-size: 23px;
@@ -67,17 +86,24 @@
     @include md {
       font-size: 26px;
     }
+    @include lg {
+      font-size: 28px;
+    }
   }
   p {
     font-size: 15px;
-    margin: 10px 20px 35px 20px;
+    margin: 10px 20px 0px 20px;
     @include sm {
       margin-top: 15px;
       font-size: 16px;
     }
     @include md {
-      margin: 20px 30px;
       font-size: 16px;
+      margin: 20px 30px 0px 30px;
+    }
+    @include lg {
+      margin: 45px 60px 0px 60px;
+      font-size: 17px;
     }
   }
 }
@@ -87,18 +113,24 @@
   justify-content: space-evenly;
   align-items: center;
   @include sm {
-    margin-bottom: 20px;
+    margin-top: 45px;
+    margin-bottom: 35px;
   }
   @include md {
-    margin-top: 35px;
-    margin-bottom: 25px;
     justify-content: space-around;
+  }
+  @include lg {
+    margin-top: 80px;
+    justify-content: space-evenly;
   }
   i {
     font-size: 50px;
     transition: transform 0.2s ease-in-out;
     @include md {
       font-size: 55px;
+    }
+    @include lg {
+      font-size: 60px;
     }
     &:hover {
       transform: scale(1.1);

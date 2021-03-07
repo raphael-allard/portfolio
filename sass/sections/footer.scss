@@ -10,6 +10,12 @@ footer {
   @include sm {
     height: 60px;
   }
+  @include md {
+    height: 70px;
+  }
+  @include lg {
+    height: 80px;
+  }
   a {
     position: absolute;
     bottom: 55px;
@@ -17,6 +23,12 @@ footer {
     transition: transform 0.3s ease-in-out;
     @include sm {
       bottom: 65px;
+    }
+    @include md {
+      bottom: 75px;
+    }
+    @include lg {
+      bottom: 85px;
     }
     &:hover {
       transform: scale(1.2) rotate(360deg);
@@ -31,12 +43,21 @@ footer {
         color: white;
         font-size: 26px;
       }
+      @include lg {
+        font-size: 28px;
+      }
     }
   }
   p {
     font-size: 11px;
     @include sm {
       font-size: 13px;
+    }
+    @include md {
+      font-size: 14px;
+    }
+    @include lg {
+      font-size: 15px;
     }
   }
 }
