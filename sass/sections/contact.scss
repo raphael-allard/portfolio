@@ -4,15 +4,21 @@
   @include sm {
     margin-bottom: 0;
   }
-  img {
-    width: 100%;
-    margin-top: 30px;
-    @include sm {
-      width: 50%;
-    }
-    @include md {
-      width: 40%;
-    }
+}
+
+.snowboarder-background {
+  max-width: 575px;
+  height: 300px;
+  margin-top: 30px;
+  background-image: url('../../images/snowboarder.jpg');
+  background-size: cover;
+  background-position: center;
+  @include sm {
+    max-width: 767px;
+  }
+  @include md {
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -36,7 +42,7 @@
 }
 
 .contact-picture-content {
-  @include sm {
+  @include md {
     display: flex;
   }
 }
@@ -45,27 +51,33 @@
   margin-top: 30px;
   text-align: center;
   @include sm {
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 35px;
     margin-right: 35px;
+  }
+  @include md {
+    width: 50%;
   }
   h3 {
     font-size: 23px;
     font-weight: lighter;
+    @include sm {
+      font-size: 26px;
+    }
     @include md {
       font-size: 26px;
     }
   }
   p {
     font-size: 15px;
-    margin-top: 10px;
+    margin: 10px 20px 35px 20px;
     @include sm {
       margin-top: 15px;
+      font-size: 16px;
     }
     @include md {
       margin: 20px 30px;
       font-size: 16px;
-      // max-width: 400px;
     }
   }
 }
@@ -74,26 +86,22 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 30px;
   @include sm {
-    justify-content: space-around;
     margin-bottom: 20px;
   }
   @include md {
     margin-top: 35px;
     margin-bottom: 25px;
+    justify-content: space-around;
   }
   i {
     font-size: 50px;
     transition: transform 0.2s ease-in-out;
-    @include sm {
-      font-size: 45px;
-    }
     @include md {
       font-size: 55px;
     }
     &:hover {
-      transform: scale(1.2);
+      transform: scale(1.1);
     }
   }
   .fa-envelope {

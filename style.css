@@ -186,18 +186,24 @@ h1, h2, h3, h4, p {
     margin-bottom: 0;
   }
 }
-#contact img {
-  width: 100%;
+
+.snowboarder-background {
+  max-width: 575px;
+  height: 300px;
   margin-top: 30px;
+  background-image: url("../../images/snowboarder.jpg");
+  background-size: cover;
+  background-position: center;
 }
 @media (min-width: 576px) {
-  #contact img {
-    width: 50%;
+  .snowboarder-background {
+    max-width: 767px;
   }
 }
 @media (min-width: 768px) {
-  #contact img {
-    width: 40%;
+  .snowboarder-background {
+    width: 50%;
+    height: auto;
   }
 }
 
@@ -222,7 +228,7 @@ h1, h2, h3, h4, p {
   }
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .contact-picture-content {
     display: flex;
   }
@@ -234,14 +240,24 @@ h1, h2, h3, h4, p {
 }
 @media (min-width: 576px) {
   .contact-content {
-    margin-top: 25px;
+    margin-top: 35px;
     margin-left: 35px;
     margin-right: 35px;
+  }
+}
+@media (min-width: 768px) {
+  .contact-content {
+    width: 50%;
   }
 }
 .contact-content h3 {
   font-size: 23px;
   font-weight: lighter;
+}
+@media (min-width: 576px) {
+  .contact-content h3 {
+    font-size: 26px;
+  }
 }
 @media (min-width: 768px) {
   .contact-content h3 {
@@ -250,11 +266,12 @@ h1, h2, h3, h4, p {
 }
 .contact-content p {
   font-size: 15px;
-  margin-top: 10px;
+  margin: 10px 20px 35px 20px;
 }
 @media (min-width: 576px) {
   .contact-content p {
     margin-top: 15px;
+    font-size: 16px;
   }
 }
 @media (min-width: 768px) {
@@ -268,11 +285,9 @@ h1, h2, h3, h4, p {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 30px;
 }
 @media (min-width: 576px) {
   .contact-link-box {
-    justify-content: space-around;
     margin-bottom: 20px;
   }
 }
@@ -280,16 +295,12 @@ h1, h2, h3, h4, p {
   .contact-link-box {
     margin-top: 35px;
     margin-bottom: 25px;
+    justify-content: space-around;
   }
 }
 .contact-link-box i {
   font-size: 50px;
   transition: transform 0.2s ease-in-out;
-}
-@media (min-width: 576px) {
-  .contact-link-box i {
-    font-size: 45px;
-  }
 }
 @media (min-width: 768px) {
   .contact-link-box i {
@@ -297,7 +308,7 @@ h1, h2, h3, h4, p {
   }
 }
 .contact-link-box i:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 .contact-link-box .fa-envelope {
   cursor: pointer;
@@ -326,12 +337,11 @@ footer a {
 }
 @media (min-width: 576px) {
   footer a {
-    bottom: 70px;
-    left: 15px;
+    bottom: 65px;
   }
 }
 footer a:hover {
-  transform: scale(1.4) rotate(360deg);
+  transform: scale(1.2) rotate(360deg);
 }
 footer a i {
   font-size: 20px;
@@ -340,7 +350,12 @@ footer a i {
 @media (min-width: 576px) {
   footer a i {
     font-size: 23px;
+  }
+}
+@media (min-width: 768px) {
+  footer a i {
     color: white;
+    font-size: 26px;
   }
 }
 footer p {
