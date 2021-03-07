@@ -103,3 +103,17 @@ nav.active {
 .navbar-list-box h3:hover {
   text-decoration: underline;
 }
+
+#first-wind-button {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+#second-wind-button {
+  cursor: pointer;
+  &:hover {
+    text-decoration: underline;
+  }
+}
