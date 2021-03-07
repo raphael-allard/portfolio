@@ -284,7 +284,7 @@ h1, h2, h3, h4, p {
   max-width: 575px;
   height: 250px;
   margin-top: 30px;
-  background-image: url("../../images/snowboarder.jpg");
+  background-image: url("images/snowboarder.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -911,7 +911,7 @@ nav.active {
 }
 
 #skills {
-  background: linear-gradient(307deg, rgba(0, 0, 0, 0.5046393557) 0%, rgba(0, 0, 0, 0.7007177871) 0%), url("../../images/village.png");
+  background: linear-gradient(307deg, rgba(0, 0, 0, 0.5046393557) 0%, rgba(0, 0, 0, 0.7007177871) 0%), url("images/village.png");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
