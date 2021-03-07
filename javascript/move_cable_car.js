@@ -4,7 +4,7 @@ const moveCableCar = () => {
   console.log(leftValue);
 
   if (leftValue === "0px") {
-    cableCar.style.left = "95%";
+    cableCar.style.left = "94%";
   } else {
     cableCar.style.left = '0px';
   }

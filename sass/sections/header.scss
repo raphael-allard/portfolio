@@ -5,7 +5,7 @@ header {
     padding-top: 105px;
   }
   @include xl {
-    padding-top: 90px;
+    padding-top: 75px;
   }
   h1 {
     font-size: 32px;
@@ -40,7 +40,7 @@ header {
   border-top: 1px solid black;
   bottom: 67%;
   transform: rotate(-8deg);
-  width: 100%;
+  width: 99%;
   @include sm {
     bottom: 64%;
   }
@@ -56,7 +56,7 @@ header {
     top: -2px;
     left: 0px;
     transition: left 10s ease-out;
-    font-size: 20px;
+    font-size: 25px;
     @include sm {
       font-size: 30px;
     }

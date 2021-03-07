@@ -615,7 +615,7 @@ header {
 }
 @media (min-width: 1200px) {
   header {
-    padding-top: 90px;
+    padding-top: 75px;
   }
 }
 header h1 {
@@ -660,7 +660,7 @@ header img {
   border-top: 1px solid black;
   bottom: 67%;
   transform: rotate(-8deg);
-  width: 100%;
+  width: 99%;
 }
 @media (min-width: 576px) {
   #cable {
@@ -683,7 +683,7 @@ header img {
   top: -2px;
   left: 0px;
   transition: left 10s ease-out;
-  font-size: 20px;
+  font-size: 25px;
 }
 @media (min-width: 576px) {
   #cable i {
