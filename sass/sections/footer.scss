@@ -10,24 +10,50 @@ footer {
   @include sm {
     height: 60px;
   }
+  @include md {
+    height: 70px;
+  }
+  @include lg {
+    height: 80px;
+  }
+  @include xl {
+    height: 90px;
+  }
   a {
     position: absolute;
     bottom: 55px;
     left: 10px;
     transition: transform 0.3s ease-in-out;
     @include sm {
-      bottom: 70px;
-      left: 15px;
+      bottom: 65px;
+    }
+    @include md {
+      bottom: 75px;
+    }
+    @include lg {
+      bottom: 85px;
+    }
+    @include xl {
+      bottom: 95px;
     }
     &:hover {
-      transform: scale(1.4) rotate(360deg);
+      transform: scale(1.2) rotate(360deg);
     }
     i {
       font-size: 20px;
       color: #1E1E1E;
       @include sm {
         font-size: 23px;
+      }
+      @include md {
         color: white;
+        font-size: 26px;
+      }
+      @include lg {
+        font-size: 28px;
+      }
+      @include xl {
+        font-size: 30px;
       }
     }
   }
@@ -35,6 +61,15 @@ footer {
     font-size: 11px;
     @include sm {
       font-size: 13px;
+    }
+    @include md {
+      font-size: 14px;
+    }
+    @include lg {
+      font-size: 15px;
+    }
+    @include xl {
+      font-size: 16px;
     }
   }
 }
