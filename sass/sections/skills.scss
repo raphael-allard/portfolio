@@ -12,6 +12,9 @@
   @include md {
     padding: 50px 20px 65px 20px;
   }
+  @include xl {
+    padding: 70px 20px 75px 20px;
+  }
 }
 
 .skills-title {
@@ -25,16 +28,28 @@
     @include sm {
       font-size: 34px;
     }
+    @include md {
+      font-size: 35px;
+    }
     @include lg {
       font-size: 36px;
+    }
+    @include xl {
+      font-size: 37px;
     }
   }
   i {
     @include sm {
       font-size: 20px;
     }
+    @include md {
+      font-size: 22px;
+    }
     @include lg {
       font-size: 24px;
+    }
+    @include xl {
+      font-size: 26px;
     }
   }
 }

@@ -25,6 +25,12 @@
     height: 38px;
   }
 }
+@media (min-width: 1200px) {
+  .bubble {
+    width: 190px;
+    height: 40px;
+  }
+}
 .bubble p {
   font-size: 13px;
 }
@@ -41,6 +47,11 @@
 @media (min-width: 992px) {
   .bubble p {
     font-size: 18px;
+  }
+}
+@media (min-width: 1200px) {
+  .bubble p {
+    font-size: 19px;
   }
 }
 
@@ -155,6 +166,11 @@ h1, h2, h3, h4, p {
     margin-top: 65px;
   }
 }
+@media (min-width: 1200px) {
+  .about-title {
+    margin-top: 100px;
+  }
+}
 .about-title h2 {
   margin: 0px 30px;
   font-size: 30px;
@@ -165,9 +181,19 @@ h1, h2, h3, h4, p {
     font-size: 34px;
   }
 }
+@media (min-width: 768px) {
+  .about-title h2 {
+    font-size: 35px;
+  }
+}
 @media (min-width: 992px) {
   .about-title h2 {
     font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-title h2 {
+    font-size: 37px;
   }
 }
 @media (min-width: 576px) {
@@ -175,9 +201,19 @@ h1, h2, h3, h4, p {
     font-size: 20px;
   }
 }
+@media (min-width: 768px) {
+  .about-title i {
+    font-size: 22px;
+  }
+}
 @media (min-width: 992px) {
   .about-title i {
     font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-title i {
+    font-size: 26px;
   }
 }
 
@@ -209,6 +245,12 @@ h1, h2, h3, h4, p {
     font-size: 17px;
   }
 }
+@media (min-width: 1200px) {
+  .about-content p {
+    font-size: 18px;
+    width: 210px;
+  }
+}
 
 .about-content p:not(:first-child) {
   margin-top: 20px;
@@ -218,7 +260,6 @@ h1, h2, h3, h4, p {
     margin-top: 0;
   }
 }
-
 #contact {
   margin-top: 80px;
   margin-bottom: 35px;
@@ -233,10 +274,15 @@ h1, h2, h3, h4, p {
     margin-top: 85px;
   }
 }
+@media (min-width: 1200px) {
+  #contact {
+    margin-top: 115px;
+  }
+}
 
 .snowboarder-background {
   max-width: 575px;
-  height: 300px;
+  height: 250px;
   margin-top: 30px;
   background-image: url("../../images/snowboarder.jpg");
   background-size: cover;
@@ -245,6 +291,7 @@ h1, h2, h3, h4, p {
 @media (min-width: 576px) {
   .snowboarder-background {
     max-width: 767px;
+    height: 225px;
   }
 }
 @media (min-width: 768px) {
@@ -274,9 +321,19 @@ h1, h2, h3, h4, p {
     font-size: 34px;
   }
 }
+@media (min-width: 768px) {
+  .contact-title h2 {
+    font-size: 35px;
+  }
+}
 @media (min-width: 992px) {
   .contact-title h2 {
     font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-title h2 {
+    font-size: 37px;
   }
 }
 @media (min-width: 576px) {
@@ -284,9 +341,19 @@ h1, h2, h3, h4, p {
     font-size: 20px;
   }
 }
+@media (min-width: 768px) {
+  .contact-title i {
+    font-size: 22px;
+  }
+}
 @media (min-width: 992px) {
   .contact-title i {
     font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-title i {
+    font-size: 26px;
   }
 }
 
@@ -299,6 +366,11 @@ h1, h2, h3, h4, p {
   .contact-picture-content {
     height: 500px;
     margin-top: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-picture-content {
+    margin-top: 45px;
   }
 }
 
@@ -342,6 +414,11 @@ h1, h2, h3, h4, p {
     font-size: 28px;
   }
 }
+@media (min-width: 1200px) {
+  .contact-content h3 {
+    font-size: 30px;
+  }
+}
 .contact-content p {
   font-size: 15px;
   margin: 10px 20px 0px 20px;
@@ -364,15 +441,21 @@ h1, h2, h3, h4, p {
     font-size: 17px;
   }
 }
+@media (min-width: 1200px) {
+  .contact-content p {
+    margin: 45px 85px 0px 85px;
+    font-size: 18px;
+  }
+}
 
 .contact-link-box {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-top: 45px;
 }
 @media (min-width: 576px) {
   .contact-link-box {
-    margin-top: 45px;
     margin-bottom: 35px;
   }
 }
@@ -399,6 +482,11 @@ h1, h2, h3, h4, p {
 @media (min-width: 992px) {
   .contact-link-box i {
     font-size: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .contact-link-box i {
+    font-size: 65px;
   }
 }
 .contact-link-box i:hover {
@@ -433,6 +521,11 @@ footer {
     height: 80px;
   }
 }
+@media (min-width: 1200px) {
+  footer {
+    height: 90px;
+  }
+}
 footer a {
   position: absolute;
   bottom: 55px;
@@ -452,6 +545,11 @@ footer a {
 @media (min-width: 992px) {
   footer a {
     bottom: 85px;
+  }
+}
+@media (min-width: 1200px) {
+  footer a {
+    bottom: 95px;
   }
 }
 footer a:hover {
@@ -477,6 +575,11 @@ footer a i {
     font-size: 28px;
   }
 }
+@media (min-width: 1200px) {
+  footer a i {
+    font-size: 30px;
+  }
+}
 footer p {
   font-size: 11px;
 }
@@ -495,6 +598,11 @@ footer p {
     font-size: 15px;
   }
 }
+@media (min-width: 1200px) {
+  footer p {
+    font-size: 16px;
+  }
+}
 
 header {
   text-align: center;
@@ -505,12 +613,22 @@ header {
     padding-top: 105px;
   }
 }
+@media (min-width: 1200px) {
+  header {
+    padding-top: 90px;
+  }
+}
 header h1 {
   font-size: 32px;
 }
 @media (min-width: 576px) {
   header h1 {
     font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  header h1 {
+    font-size: 38px;
   }
 }
 header h2 {
@@ -520,6 +638,11 @@ header h2 {
 @media (min-width: 576px) {
   header h2 {
     font-size: 34px;
+  }
+}
+@media (min-width: 1200px) {
+  header h2 {
+    font-size: 36px;
   }
 }
 header img {
@@ -688,6 +811,11 @@ nav.active {
     font-size: 36px;
   }
 }
+@media (min-width: 1200px) {
+  .projects-title h2 {
+    font-size: 37px;
+  }
+}
 @media (min-width: 576px) {
   .projects-title i {
     font-size: 20px;
@@ -696,6 +824,11 @@ nav.active {
 @media (min-width: 992px) {
   .projects-title i {
     font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .projects-title i {
+    font-size: 26px;
   }
 }
 
@@ -731,6 +864,11 @@ nav.active {
     padding: 50px 20px 65px 20px;
   }
 }
+@media (min-width: 1200px) {
+  #skills {
+    padding: 70px 20px 75px 20px;
+  }
+}
 
 .skills-title {
   display: flex;
@@ -747,9 +885,19 @@ nav.active {
     font-size: 34px;
   }
 }
+@media (min-width: 768px) {
+  .skills-title h2 {
+    font-size: 35px;
+  }
+}
 @media (min-width: 992px) {
   .skills-title h2 {
     font-size: 36px;
+  }
+}
+@media (min-width: 1200px) {
+  .skills-title h2 {
+    font-size: 37px;
   }
 }
 @media (min-width: 576px) {
@@ -757,9 +905,19 @@ nav.active {
     font-size: 20px;
   }
 }
+@media (min-width: 768px) {
+  .skills-title i {
+    font-size: 22px;
+  }
+}
 @media (min-width: 992px) {
   .skills-title i {
     font-size: 24px;
+  }
+}
+@media (min-width: 1200px) {
+  .skills-title i {
+    font-size: 26px;
   }
 }
 

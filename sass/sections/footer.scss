@@ -16,6 +16,9 @@ footer {
   @include lg {
     height: 80px;
   }
+  @include xl {
+    height: 90px;
+  }
   a {
     position: absolute;
     bottom: 55px;
@@ -29,6 +32,9 @@ footer {
     }
     @include lg {
       bottom: 85px;
+    }
+    @include xl {
+      bottom: 95px;
     }
     &:hover {
       transform: scale(1.2) rotate(360deg);
@@ -46,6 +52,9 @@ footer {
       @include lg {
         font-size: 28px;
       }
+      @include xl {
+        font-size: 30px;
+      }
     }
   }
   p {
@@ -58,6 +67,9 @@ footer {
     }
     @include lg {
       font-size: 15px;
+    }
+    @include xl {
+      font-size: 16px;
     }
   }
 }

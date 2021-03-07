@@ -17,6 +17,10 @@
     width: 170px;
     height: 38px;
   }
+  @include xl {
+    width: 190px;
+    height: 40px;
+  }
   p {
    font-size: 13px;
    @include sm {
@@ -27,6 +31,9 @@
    }
    @include lg {
      font-size: 18px;
+   }
+   @include xl {
+     font-size: 19px;
    }
  }
 }

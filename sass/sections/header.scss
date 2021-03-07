@@ -4,10 +4,16 @@ header {
   @include lg {
     padding-top: 105px;
   }
+  @include xl {
+    padding-top: 90px;
+  }
   h1 {
     font-size: 32px;
     @include sm {
       font-size: 36px;
+    }
+    @include xl {
+      font-size: 38px;
     }
   }
   h2 {
@@ -15,6 +21,9 @@ header {
     font-size: 30px;
     @include sm {
       font-size: 34px;
+    }
+    @include xl {
+      font-size: 36px;
     }
   }
   img {
