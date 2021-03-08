@@ -2,10 +2,10 @@ const moveCableCar = () => {
   const cableCar = document.querySelector('.fa-tram');
   const leftValue = getComputedStyle(cableCar).left;
 
-  if (leftValue === "0px") {
-    cableCar.style.left = "94%";
+  if (leftValue === "5px") {
+    cableCar.style.left = "95%";
   } else {
-    cableCar.style.left = '0px';
+    cableCar.style.left = '5px';
   }
 };
 

@@ -92,6 +92,7 @@
   }
   @include md {
     width: 50%;
+    flex-grow: 1;
   }
   @include lg {
     margin-top: 0px;
