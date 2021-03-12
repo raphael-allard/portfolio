@@ -1,3 +1,13 @@
+#about {
+  scroll-margin-top: 130px;
+  @include sm {
+    scroll-margin-top: 160px;
+  }
+  @include md {
+    scroll-margin-top: 120px;
+  }
+}
+
 .about-title {
   display: flex;
   justify-content: center;

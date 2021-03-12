@@ -155,6 +155,20 @@ h1, h2, h3, h4, p {
   margin-right: 20px;
 }
 
+#about {
+  scroll-margin-top: 130px;
+}
+@media (min-width: 576px) {
+  #about {
+    scroll-margin-top: 160px;
+  }
+}
+@media (min-width: 768px) {
+  #about {
+    scroll-margin-top: 120px;
+  }
+}
+
 .about-title {
   display: flex;
   justify-content: center;
@@ -263,15 +277,18 @@ h1, h2, h3, h4, p {
 #contact {
   margin-top: 80px;
   margin-bottom: 35px;
+  scroll-margin-top: 130px;
 }
 @media (min-width: 576px) {
   #contact {
     margin-bottom: 0;
+    scroll-margin-top: 160px;
   }
 }
 @media (min-width: 992px) {
   #contact {
     margin-top: 85px;
+    scroll-margin-top: 10px;
   }
 }
 @media (min-width: 1200px) {
@@ -839,16 +856,18 @@ nav.active {
 #projects {
   margin-top: 50px;
   padding: 0px 20px;
+  scroll-margin-top: 120px;
 }
 @media (min-width: 576px) {
   #projects {
     margin-top: 60px;
     padding: 0;
+    scroll-margin-top: 160px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 768px) {
   #projects {
-    margin-top: 85px;
+    scroll-margin-top: 120px;
   }
 }
 
@@ -914,15 +933,18 @@ nav.active {
   color: white;
   margin-top: 50px;
   padding: 30px 20px 50px 20px;
+  scroll-margin-top: 90px;
 }
 @media (min-width: 576px) {
   #skills {
     padding: 50px 20px 55px 20px;
+    scroll-margin-top: 100px;
   }
 }
 @media (min-width: 768px) {
   #skills {
     padding: 50px 20px 65px 20px;
+    scroll-margin-top: 60px;
   }
 }
 @media (min-width: 1200px) {
