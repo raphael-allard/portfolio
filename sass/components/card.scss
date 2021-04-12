@@ -30,14 +30,18 @@
   .card-hover-div {
     display: flex;
     text-align: center;
-    margin: 0px 20px;
     font-size: 16px;
     flex-direction: column;
+    p {
+      height: 250px;
+      overflow: overlay;
+      padding: 0px 20px 0px 10px;
+    }
     i {
       font-size: 35px;
       width: 36px;
       margin: 0 auto;
-      margin-top: 30px;
+      margin-top: 15px;
       transition: transform 0.2s ease-in-out;
       cursor: pointer;
       &:hover {
@@ -46,5 +50,3 @@
     }
   }
 }
-
-  //   overflow: overlay;

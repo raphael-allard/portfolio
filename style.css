@@ -88,15 +88,19 @@
 .card:hover .card-hover-div {
   display: flex;
   text-align: center;
-  margin: 0px 20px;
   font-size: 16px;
   flex-direction: column;
+}
+.card:hover .card-hover-div p {
+  height: 250px;
+  overflow: overlay;
+  padding: 0px 20px 0px 10px;
 }
 .card:hover .card-hover-div i {
   font-size: 35px;
   width: 36px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 15px;
   transition: transform 0.2s ease-in-out;
   cursor: pointer;
 }
